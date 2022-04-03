@@ -20,7 +20,6 @@ export default function TodoItem({todo,onDelete}) {
             <td>{todo.desc}</td>
             <td>
                 <button type="submit" className="btn btn-danger" onClick={passItem}>Delete</button>
-                <button type="submit" className="btn btn-success ms-1">Finished</button>
             </td>
         </tr>
         </>
